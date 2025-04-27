@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(34, 135, 166),rgb(173, 27, 95));
+}
+
+
+.letters span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 8rem;
+    cursor: pointer;
+}
+
+
+
+.letters span.active{
+    animation: jump 2s ease-in-out;
+
+}
+
+@keyframes jump {
+    0%{
+        transform: translate(0,0) rotate(180deg);
+    }
+    25%{
+        transform: scale(2) translate(0,-150px);
+    }
+    75%{
+        transform: scale(1.1) translate(0.200px);
+    }
+    100%{
+        transform: translate(0,0) rotate(360deg);
+    }
+    
+}
