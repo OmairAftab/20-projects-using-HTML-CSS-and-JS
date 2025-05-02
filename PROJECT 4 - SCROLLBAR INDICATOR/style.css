@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box; 
+    background: linear-gradient(to right, rgb(57, 194, 19),rgb(38, 221, 234) );
+}
+
+.text{
+   color: rgb(101, 7, 118);
+    text-align: center;
+    line-height: 5rem;
+}
+
+span{
+   background-color: white;
+   border-radius: 5px;
+   padding: 1rem;
+   margin: 1rem;
+   width: 100px;
+   display: inline-block;
+   transition: transform 0.2s;
+}
+
+span:hover{
+   transform: scale(1.1);
+}
+
+.indicator{
+    background: linear-gradient(to right, rgb(20, 9, 225),rgb(206, 93, 7) ,rgb(221, 8, 253));
+position: fixed;
+width: 20%;
+height: 20px;
+top: 0px;
+}
