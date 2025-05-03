@@ -9,6 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background: linear-gradient(to right, white,rgb(42, 20, 53));
 }
 
 .container{
@@ -16,9 +17,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width:450px;
     padding: 40px;
-    background-color: rgb(182, 235, 235);
+    background-color: #e0d6e6;
 }
 
 .heading{
@@ -27,7 +28,7 @@ body{
 }
 
 
-.captcha{
+.pass{
    
     padding-top: 8px;
     padding-bottom: 8px;
@@ -41,38 +42,29 @@ body{
     width: 200px;
 }
 
-
-.userinput{
-    padding: 8px 0px;
-}
-
-.writecapctha{
-    text-align: center;
-    height: 35px;
-    width: 200px;
-}
-
-.submit{
+.password{
     padding: 5px 2px;
     margin: 7px;
-    width: 55px;
+    width: 170px;
     color: black;
     font-size: .9rem;
 }
 
-.submit:hover{
+.password:hover{
     cursor: pointer;
     background-color: black;
     color: white;
     transform: scale(1.1);
 }
 
-.refresh{
+.newpassword{
     padding: 5px 2px;
     margin: 7px;
+    width: 170px;
+    display: none; /* Initially hide this button */
 }
 
-.refresh:hover{
+.newpassword:hover{
     cursor: pointer;
     background-color: black;
     color: white;
